@@ -67,7 +67,7 @@ h1 em, h2 em { color: var(--pink); font-weight: 500; }
 .note-icon { color: var(--pink); font-size: 25px; }
 .hero-image {
   min-height: 615px;
-  background: linear-gradient(0deg, rgba(39,21,43,.2), transparent 45%), url("https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Shortcake_slice_2.jpg/960px-Shortcake_slice_2.jpg") center 52% / cover;
+  background: linear-gradient(0deg, rgba(39,21,43,.12), transparent 45%), url("bolo-capa.jpeg") center 52% / cover;
   position: relative;
 }
 .image-label { position: absolute; right: 9%; bottom: 10%; padding: 17px 22px; background: var(--cream); color: var(--plum); display: grid; gap: 3px; font-size: 11px; }
