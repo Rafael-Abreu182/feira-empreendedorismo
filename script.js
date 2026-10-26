@@ -1,4 +1,4 @@
-const whatsappNumber = "5531984032786";
+const whatsappNumber = "5531998686315";
 
 document.querySelectorAll("[data-whatsapp]").forEach((link) => {
   const cake = link.dataset.cake;
