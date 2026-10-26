@@ -1,3 +1,4 @@
+// Include the country code without a leading plus for WhatsApp links.
 const whatsappNumber = "5531998686315";
 
 document.querySelectorAll("[data-whatsapp]").forEach((link) => {
