@@ -98,16 +98,15 @@ h1 em, h2 em { color: var(--pink); font-weight: 500; }
 .cake-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 19px; }
 .cake-card { background: var(--paper); transition: transform .25s, box-shadow .25s; }
 .cake-card:hover { transform: translateY(-5px); box-shadow: 0 16px 35px rgba(53,35,43,.1); }
-.cake-image { height: 190px; background-position: center; background-size: cover; }
-.cake-image-strawberry { background-image: url("https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Shortcake_slice.jpg/960px-Shortcake_slice.jpg"); }
-.cake-image-passionfruit { background-image: url("https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Piece_of_chocolate_cake_on_a_white_plate_decorated_with_chocolate_sauce.jpg/960px-Piece_of_chocolate_cake_on_a_white_plate_decorated_with_chocolate_sauce.jpg"); }
-.cake-image-hazelnut { background-image: url("https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Piece_of_chocolate_cake.jpg/960px-Piece_of_chocolate_cake.jpg"); }
+.cake-image { display: block; width: 100%; height: 190px; object-fit: cover; object-position: center 54%; }
 .cake-details { padding: 20px 21px 22px; }
 .cake-number { color: #b98165; text-transform: uppercase; font-size: 8px; font-weight: 700; letter-spacing: .13em; }
 .cake-details h3 { color: var(--plum); font-family: var(--serif); font-size: 21px; font-weight: 500; margin: 10px 0; }
 .cake-details p { min-height: 54px; color: var(--muted); font-size: 10px; line-height: 1.7; margin-bottom: 15px; }
-.order-link { display: flex; justify-content: space-between; border-top: 1px solid #eee6df; padding-top: 13px; color: var(--plum); font-size: 10px; font-weight: 700; }
-.order-link span { color: #b98165; }
+.cake-details .cake-price { min-height: 0; margin: 0 0 14px; color: var(--plum); font-family: var(--serif); font-size: 19px; font-weight: 700; }
+.order-link { min-height: 43px; display: flex; justify-content: space-between; align-items: center; padding: 0 15px; border: 0; border-radius: 3px; background: var(--plum); color: white; font-size: 12px; font-weight: 700; transition: background .2s, transform .2s; }
+.order-link:hover { transform: translateY(-1px); background: var(--plum-soft); }
+.order-link span { color: var(--pink); font-size: 14px; }
 .menu-footnote { margin: 22px 0 0; text-align: center; color: var(--muted); font-size: 10px; }
 
 .visit-section { display: grid; grid-template-columns: 1fr .82fr; align-items: center; gap: 9%; padding-top: 105px; padding-bottom: 105px; }
